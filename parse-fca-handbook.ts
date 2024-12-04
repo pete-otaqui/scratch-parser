@@ -3,7 +3,7 @@ import * as cheerio from "cheerio";
 import { pullThroughCache, pullThroughFetchText, turndownService } from "./utils.js";
 import { ParsedNode, ParsedNodeWithChildren } from "./types.js";
 import slugify from "slugify";
-import { getArticlesContainer, getDocumentsContainer, saveArticle, saveDocument } from "./cosmos.js";
+import { getArticlesContainer, getDocumentsContainer, performWithBackoff, saveArticle, saveDocument } from "./cosmos.js";
 import { AnyNode, Element } from "domhandler";
 import { Container } from "@azure/cosmos";
 
@@ -21,6 +21,8 @@ function absoluteUrl(url?: string) {
 
 export type CheerioElement = cheerio.Cheerio<Element>;
 
+let tocNodeCount = 0;
+const MAX_TOC_NODES = 1000000;
 async function processTocNode(node: CheerioElement, $: cheerio.CheerioAPI, parent: ParsedNodeWithChildren, tocData: ParsedNodeWithChildren, parentCollectionCodes: string[], index: number) {
 
   const forceCode = parentCollectionCodes[index] ?? "";
@@ -53,19 +55,21 @@ async function processTocNode(node: CheerioElement, $: cheerio.CheerioAPI, paren
     children: [],
   };
   parent.children.push(entry);
-  if (entryType === "collection") {
-    let childIndex = 0;
-    addCode(entryCode, entry);
-    for (const child of children) {
-      await processTocNode($(child), $, entry, tocData, childCodes, childIndex);
-      childIndex += 1;
-    }
-  } else if (entryType === "document") {
-    const updatedDocCode = getDocumentCode(entry, tocData);
-    entry.code = updatedDocCode;
+  if (++tocNodeCount <= MAX_TOC_NODES) {
+    if (entryType === "collection") {
+      let childIndex = 0;
+      addCode(entryCode, entry);
+      for (const child of children) {
+        await processTocNode($(child), $, entry, tocData, childCodes, childIndex);
+        childIndex += 1;
+      }
+    } else if (entryType === "document") {
+      const updatedDocCode = getDocumentCode(entry, tocData);
+      entry.code = updatedDocCode;
 
-    addCode(entry.code, entry);
-    await processDocument(entry, node, parent, tocData)
+      addCode(entry.code, entry);
+      await processDocument(entry, node, parent, tocData)
+    }
   }
   return entry;
 }
@@ -202,7 +206,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
         }
         addCode(article.code, article);
 
-        // await saveArticle(article);
+        await saveArticle(article);
 
         // if (Math.random() > 0.999) {
         //   console.log("-----")
@@ -223,7 +227,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
   await walkSection();
 
   // now we can save the Document, which contains Sections + ArticlesWithNoContent
-  // await saveDocument(entry);
+  await saveDocument(entry);
 
   // if (saveDocsCount++ > 100) {
   //   throw new Error("STOP");
@@ -429,8 +433,39 @@ async function getToc() {
       await processTocNode($(collection), $, tocData, tocData, [], count);
       count += 1;
     }
+    await saveTocData(tocData);
     return tocData;
   }, true);
+}
+
+
+const COLLECTION_MAX = 1000 * 1000;
+async function saveTocData(tocData: ParsedNodeWithChildren) {
+  if (tocData.type === "collection") {
+    const json = JSON.stringify(tocData);
+    if (json.length > COLLECTION_MAX) {
+      console.error("TOO LARGE", tocData.code);
+      const shrunk = JSON.parse(json) as ParsedNodeWithChildren;
+      shrunk.children.forEach((child) => {
+        child.children.forEach((grandchild) => {
+          grandchild.children = [];
+        });
+      });
+      const json2 = JSON.stringify(shrunk);
+      if (json2.length > COLLECTION_MAX) {
+        console.error("STILL TOO LARGE");
+      } else {
+        console.log("saving shrunk", tocData.code);
+        await saveDocument(shrunk);
+      }
+    } else {
+      console.log("saving", tocData.code);
+      await saveDocument(tocData);
+    }
+    for (const child of tocData.children) {
+      await saveTocData(child);
+    }
+  }
 }
 
 
@@ -459,14 +494,21 @@ function printToc(entry: ParsedNodeWithChildren) {
 }
 
 async function clearDocuments() {
+  console.log("clearing old stuff");
   const docsContainer = await getDocumentsContainer();
-  await deleteResources(docsContainer, "SELECT * FROM c WHERE c.jurisdiction = 'GB'");
+  await performWithBackoff(() => deleteResources(docsContainer, "SELECT * FROM c WHERE c.jurisdiction = 'GB'"));
   const articlesContainer = await getArticlesContainer();
-  await deleteResources(articlesContainer, "SELECT * FROM c WHERE c.jurisdiction = 'GB'");
+  await performWithBackoff(() => deleteResources(articlesContainer, "SELECT * FROM c WHERE c.jurisdiction = 'GB'"));
+  console.log("done");
 }
 async function deleteResources(container: Container, query: string) {
   const {resources} = await container.items.query(query).fetchAll();
-  for (const item of resources) {
-    await container.item(item.id, item.code).delete();
+  const batchSize = 100;
+  for (let i = 0; i < resources.length; i+= batchSize) {
+    const batch = resources.slice(i, i + batchSize);
+    const promises = batch.map(async (item) => {
+      await container.item(item.id, item.code).delete();
+    });
+    await Promise.all(promises);
   }
 }
