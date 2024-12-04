@@ -1,0 +1,25 @@
+{
+  "name": "ecfr-parser-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@azure/cosmos": "^4.2.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "html-to-text": "^9.0.5",
+    "puppeteer": "^23.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "slugify": "^1.6.6",
+    "tsx": "^4.19.2",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/turndown": "^5.0.5"
+  }
+}

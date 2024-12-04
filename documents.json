@@ -1,0 +1,4311 @@
+[
+  {
+    "id": "76129346-5933-4d47-8aa4-ac1843ca84c8",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "76129346-5933-4d47-8aa4-ac1843ca84c8|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "e38bd03a-184f-4439-a056-10b625335573",
+          "value": "GENPRU General Prudential sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "c7459e2d-6fc3-4199-b95c-056d96b7b54e",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "2c773836-fdc4-454b-a647-de7554180335",
+          "value": "GENPRU"
+        }
+      ],
+      "url": [
+        {
+          "id": "49ff02ff-bb55-46f8-a459-f30bc8583f44",
+          "value": "https://www.handbook.fca.org.uk/handbook/GENPRU/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "a7489e8c-2bc1-46bb-a6ae-6515cfa7bf37",
+          "value": "GENPRU"
+        }
+      ],
+      "uri": [
+        {
+          "id": "856ebcb0-8834-4369-ab22-527e320dcb69",
+          "value": "genpru-2027d4"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "09d09136-283e-45cb-81d8-88bacde61b98",
+          "value": "2024-06-27T13:34:27Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "6f4429ef-33c0-441d-ae4b-d8e60c532f9e",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "8b6092cb-70b9-4b71-a060-8a060ca36fc9",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "1707f31a-a5c3-4011-8e31-b69b66908a68",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "b7e77e68-2368-460d-9c82-14c3a6c36e0b",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7bcfbaf5-1906-4b31-b437-c6d42b4c4737",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "7bcfbaf5-1906-4b31-b437-c6d42b4c4737|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "aded01c1-acd1-408e-b69b-1e3d2e5afe06",
+          "value": "INSPRU Prudential sourcebook for Insurers"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "6f8fdde4-789e-42ce-b50e-980a8a48e4b2",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "e11a780b-29a6-4740-acb7-4f3591e12a71",
+          "value": "INSPRU"
+        }
+      ],
+      "url": [
+        {
+          "id": "144868b6-de3f-4339-80fb-38e43903d525",
+          "value": "https://www.handbook.fca.org.uk/handbook/INSPRU/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "9dff19c2-13bf-4d59-8418-505eb3809b2a",
+          "value": "INSPRU"
+        }
+      ],
+      "uri": [
+        {
+          "id": "3762299f-90a6-4378-96d6-6c6011b005f7",
+          "value": "inspru-c771e9"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "319069f9-9a9a-46d5-ad41-43632284410a",
+          "value": "2024-06-27T13:35:52Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "0fd67c5b-802d-4fba-bcf8-161630fb5035",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "03fe81eb-2f3a-4ec7-8ae4-7921c54754bc",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "c88125ba-73de-4d66-a6a9-0041ff854c68",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "3a0377a2-55ce-4b0a-b059-473461bc2e68",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "d0ebce8a-301c-4dfd-8e36-56edd1ebeaf3",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "d0ebce8a-301c-4dfd-8e36-56edd1ebeaf3|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "df67e099-5100-43a5-b394-c7bb37ecdab5",
+          "value": "MIFIDPRU Prudential sourcebook for MiFID Investment Firms"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "6e469af4-3aa4-484c-ae2d-1aa8faa3a715",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "1b3377b8-752b-4dd2-9085-fbeeacc4092c",
+          "value": "MIFIDPRU"
+        }
+      ],
+      "url": [
+        {
+          "id": "ebd3bb31-f63c-4eb7-91b2-bcdd00532c15",
+          "value": "https://www.handbook.fca.org.uk/handbook/MIFIDPRU/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "89cf40f6-c849-4eb8-b5fd-20ef9bb17341",
+          "value": "MIFIDPRU"
+        }
+      ],
+      "uri": [
+        {
+          "id": "0bf3b117-c3cb-49d9-bc3d-4c2cd0691e28",
+          "value": "mifidpru-07be01"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "8c30b40a-6d2a-4750-94da-d08177d37ff8",
+          "value": "2024-06-27T13:38:54Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "a86a791a-c04f-47af-952d-9ea4b064120c",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "72c6fed6-ac33-4b54-9db9-64c7a42b7029",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "3e7bd040-987b-4cc1-833d-8e2b599714f7",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "10f1ed20-ad1b-4d35-859b-348c377b8e32",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "9f6b2838-4a82-4759-a8f5-125078c25024",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "9f6b2838-4a82-4759-a8f5-125078c25024|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "c7ad7399-7dfb-4c41-a873-9d95411564fd",
+          "value": "COBS Conduct of Business Sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "374c8585-3863-44db-a136-f5fa2d3ed694",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "4b684693-5643-41bb-9ea5-97d83a47d4af",
+          "value": "COBS"
+        }
+      ],
+      "url": [
+        {
+          "id": "18dd3bae-a971-4127-852a-e4fbbae6507d",
+          "value": "https://www.handbook.fca.org.uk/handbook/COBS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "e9c8a742-1540-49f1-a7ee-2ae4baa53c72",
+          "value": "COBS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "252cdf44-a8da-4198-9d6b-95c5b042b2b2",
+          "value": "cobs-435338"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "3937b00a-1a83-481a-9b76-5b10cc82f0e9",
+          "value": "2024-06-27T13:41:58Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "97098332-1b9f-42b6-9727-551541631cd1",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "b5663948-90b1-4545-bf9c-86a3678057e5",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "206d5ca6-674b-4f25-b941-9aefa8f4c2a0",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e768a3d2-5c47-4398-bb94-2d301eb80205",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7577ab32-a315-4cfe-8eee-4e0c6944ff51",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "7577ab32-a315-4cfe-8eee-4e0c6944ff51|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "23837964-42db-42f7-a7cf-44a4734079e7",
+          "value": "SUP Supervision"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "2f7f2179-90ad-4f0f-abf4-1eae65b000b3",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "1494b294-4bc6-412a-9893-03c5d967bb26",
+          "value": "SUP"
+        }
+      ],
+      "url": [
+        {
+          "id": "fe12afc9-aeb9-437a-b3ac-b34b2c399015",
+          "value": "https://www.handbook.fca.org.uk/handbook/SUP/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "390943f9-6939-4ea9-9577-d68106c6751c",
+          "value": "SUP"
+        }
+      ],
+      "uri": [
+        {
+          "id": "face28e9-372c-407a-92f9-1477a8cd7988",
+          "value": "sup-e14fd0"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "ad9116a6-3259-4164-8580-c5bf5605a380",
+          "value": "2024-06-27T13:42:06Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "15c63d06-78a6-4db1-8ab7-5f77a562e3c5",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "f0b770d0-74da-48d0-b808-054c851908e3",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "754c49e8-af27-4136-9429-6bbbed9485a5",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "16fc6b15-04ba-4e7f-bde9-dd64a0464dfb",
+          "value": "etl-b2c047"
+        }
+      ]
+    }
+  },
+  {
+    "id": "21f6775e-46cd-42bc-bb5a-9d40c3d988dd",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "21f6775e-46cd-42bc-bb5a-9d40c3d988dd|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "a9880df7-379a-4e86-b3fb-5d3ec5569858",
+          "value": "DISP Dispute Resolution: Complaints"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "bbf4bb45-0f9c-49e9-835a-1ea3b5bd4a09",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "ccf3bb2c-7152-461a-8591-03243f80ad04",
+          "value": "DISP"
+        }
+      ],
+      "url": [
+        {
+          "id": "8659990d-5179-4955-94f6-3faaa344474f",
+          "value": "https://www.handbook.fca.org.uk/handbook/DISP/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "8e89575d-3a86-41fe-9a58-8e8cf211ba30",
+          "value": "DISP"
+        }
+      ],
+      "uri": [
+        {
+          "id": "0d7d99e4-6f82-4fd8-bc28-6a66f8b91efc",
+          "value": "disp-bf7cb9"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "fb070265-5cde-474b-aabb-0a5522462006",
+          "value": "2024-06-27T13:45:58Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "a59c2e6b-6f2e-4770-8419-7a92cdfb5f74",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "6c336b31-9890-454c-bfab-e1d766d6098f",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "8b00122e-0e80-4e23-8263-6a9aef0a71f3",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "9a0dd160-af57-4a36-b4fc-552ca38ff258",
+          "value": "etl-4439ed"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5f21ba9e-18fc-452b-8bf1-2c2ba70326e6",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "5f21ba9e-18fc-452b-8bf1-2c2ba70326e6|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "a98e45ff-4639-4717-b61d-a6391745aa86",
+          "value": "COLL Collective Investment Schemes"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "d79fa2f3-6944-45bf-9599-55563b112547",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "ab3ef42b-b9b9-411b-a7f2-2cfc02503605",
+          "value": "COLL"
+        }
+      ],
+      "url": [
+        {
+          "id": "f10d3357-438e-4203-981a-aab048a480ba",
+          "value": "https://www.handbook.fca.org.uk/handbook/COLL/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "542efb1c-d0e9-4fd9-ac1f-1c81dc57031c",
+          "value": "COLL"
+        }
+      ],
+      "uri": [
+        {
+          "id": "fb65c3bf-869e-4fb6-aa65-19eb12aaec30",
+          "value": "coll-a3f39a"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "18c9a1c4-3749-41c1-a56e-5ff54256b7c1",
+          "value": "2024-06-27T13:46:06Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "0e7c88c6-4491-4060-bc4a-06cc0afc0475",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "258e1034-12a2-4303-a154-d7d441f12166",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "32b6bf54-ccc6-404c-95ae-a20804865167",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "2ce96108-8bf8-42e3-a9dc-55d71f765116",
+          "value": "etl-49e1b3"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5646e96e-0bd5-411e-ad41-19d7890b17ad",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "5646e96e-0bd5-411e-ad41-19d7890b17ad|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "c9487d37-93d1-430c-95b2-9e5365c6c9d3",
+          "value": "LR Listing Rules"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "168347a8-471f-4352-a055-6433b6195c6d",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "7ec5794f-b9cb-4f5a-827c-e601705a1263",
+          "value": "LR"
+        }
+      ],
+      "url": [
+        {
+          "id": "9238f33f-0b0c-4f8f-8853-876ed65d31e2",
+          "value": "https://www.handbook.fca.org.uk/handbook/LR/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "955531dd-0173-42e7-8781-777a0328f603",
+          "value": "LR"
+        }
+      ],
+      "uri": [
+        {
+          "id": "8898c95f-5489-4bf4-967a-87de6bda3001",
+          "value": "lr-2d3aff"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "22239a7a-f186-4d9c-aa11-71a484507fdb",
+          "value": "2024-06-27T13:46:15Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "b0d8cceb-2def-4935-8d55-0cb210f69a7d",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "21d24910-6e3e-48be-b5d1-c601162d09f6",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "8a813a34-1f25-4b17-9c11-f170ca40d75a",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "0b3f31de-9734-4eb1-996c-34065da253ca",
+          "value": "etl-e619d9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e5d7a9a1-830d-4ea0-be6c-fccab2e84559",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "e5d7a9a1-830d-4ea0-be6c-fccab2e84559|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "4ebbe9d7-aef0-41d6-b5f7-6134681ecee1",
+          "value": "EMPS Energy Market Participants"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "6dbad495-616a-478d-ada7-702c92701833",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "8d426304-457e-4574-8a8f-a66cd6657757",
+          "value": "EMPS"
+        }
+      ],
+      "url": [
+        {
+          "id": "08bc3caa-6e1b-4f14-bd09-498ee5555e4f",
+          "value": "https://www.handbook.fca.org.uk/handbook/EMPS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "1d52213b-ab96-4813-8432-3c25855c8d47",
+          "value": "EMPS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "5288fecf-0cf8-4917-a4b4-93d111ec2981",
+          "value": "emps-e2480a"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "057e8c6b-b3f9-408a-a008-b4da184e71ef",
+          "value": "2024-06-27T13:46:40Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "3d71bb36-d268-4cf2-81e6-198708d26077",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "382287f8-2f10-459d-a6b2-414e5cc6a30a",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "b2ccdc67-6cad-4590-83a6-8237c780d2d7",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "bc595103-92f3-4a66-9ee0-7f5aa47b5223",
+          "value": "etl-e0f7e2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "2e939359-640e-40d1-81c4-7b3ed4979c91",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "2e939359-640e-40d1-81c4-7b3ed4979c91|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "21132930-9ca6-4986-a0f6-8647270578a3",
+          "value": "COLLG The Collective Investment Scheme Information Guide"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "6829ba8d-cba8-4f09-8e36-d28c8c134b59",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "c2167b67-aa6e-4675-a704-e66d2d9e4270",
+          "value": "COLLG"
+        }
+      ],
+      "url": [
+        {
+          "id": "f0dddec4-1ccf-4112-83c3-4a933fd62640",
+          "value": "https://www.handbook.fca.org.uk/handbook/COLLG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "8ff352d6-7ea7-49e5-8d66-7cb3f70e08a9",
+          "value": "COLLG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "66c4b714-da53-4709-9d70-640aa4100063",
+          "value": "collg-f5ae17"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "0e82e824-f11b-42fb-b191-2b4212f6a5da",
+          "value": "2024-06-27T13:46:49Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "0b5951e0-3842-4a56-b6cd-1a497c7dcc96",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "9b49d196-aada-4405-8fe1-5b67b46097c0",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "090e3bc0-cfe7-4b4a-ba4a-0aec08b61389",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "31b5d9e1-ffd3-40d1-b1fd-706ee57b9447",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "61ed6b46-8d98-4962-aaae-ce0331499375",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "61ed6b46-8d98-4962-aaae-ce0331499375|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "1fb426c0-4b9b-43b5-bedc-e2995f2c84b7",
+          "value": "OMPS Oil Market Participants"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "f3fdbb83-cc8e-4ad3-b30c-912360aa8162",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "e37757ac-48f6-4a12-af61-9e6f9186fc89",
+          "value": "OMPS"
+        }
+      ],
+      "url": [
+        {
+          "id": "3f1ee761-3320-401b-a560-5cbbdb4569b8",
+          "value": "https://www.handbook.fca.org.uk/handbook/OMPS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "0679a216-eb3f-4780-aa98-b7a1aa6aa415",
+          "value": "OMPS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "27982632-5f61-4fae-ac3f-18b23b1a1418",
+          "value": "omps-a8ed90"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "fc38ab17-b0c5-482f-8d38-fb18a3afb326",
+          "value": "2024-06-27T13:46:54Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "adadd961-92a9-4f81-b49e-5dddf1529685",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "5b5c5756-df04-4531-a314-82331d175a3c",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "7c542593-4972-48b5-b57e-a0b474f15d35",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e5a52c45-b93b-423b-9beb-151ad96cc49b",
+          "value": "etl-e0f7e2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "8628cdde-6103-4e56-932b-61403946cfb5",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "8628cdde-6103-4e56-932b-61403946cfb5|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "33596a0d-4926-44bb-804c-c965856b9be6",
+          "value": "SERV Service companies"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "8aa8683a-23fc-4d78-b303-71d1a82da21d",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "fb2d8b99-4ed5-4aa3-a46a-a8ad8e16bb23",
+          "value": "SERV"
+        }
+      ],
+      "url": [
+        {
+          "id": "984de12f-0afe-4e3c-a507-ae0ff32119f2",
+          "value": "https://www.handbook.fca.org.uk/handbook/SERV/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "a7e04a67-95a1-4b0a-9d65-35d04c734711",
+          "value": "SERV"
+        }
+      ],
+      "uri": [
+        {
+          "id": "11bb302b-aebc-4463-b35c-b8ac5a82922f",
+          "value": "serv-723a56"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "086c52d7-bfe3-410e-9391-bc0df0ec6adc",
+          "value": "2024-06-27T13:47:05Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "99bb01d8-68c1-4556-8dbe-27c3ea5c3713",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "9f4eb4da-5ea9-420e-818a-ff8512cfc237",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "a6e50a1d-c15e-44d9-b2ba-fde194ff06d0",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "93537962-477d-410f-af02-66bdc435e04f",
+          "value": "etl-e0f7e2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "389092a9-6032-401a-94ee-4e49d61a86bd",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "389092a9-6032-401a-94ee-4e49d61a86bd|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "db6c97bf-8264-427c-a943-668458948827",
+          "value": "BENCH General guidance on Benchmark Administration, Contribution and Use"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "6eddbd18-21a4-45f2-80d8-1d13d54f5749",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "f413ca05-3bf5-4df0-aa24-4a4c22d9e4d4",
+          "value": "BENCH"
+        }
+      ],
+      "url": [
+        {
+          "id": "eaeaefd0-3fe4-429b-ade0-31464837d62b",
+          "value": "https://www.handbook.fca.org.uk/handbook/BENCH/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "6faae8a4-74ad-4424-adcd-366010691c8c",
+          "value": "BENCH"
+        }
+      ],
+      "uri": [
+        {
+          "id": "91a2ba72-4f5c-4ce2-a672-bab92ca2df18",
+          "value": "bench-e6eb98"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "ac399ec6-0b73-45db-95e8-e848b5f9416b",
+          "value": "2024-06-27T13:47:16Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "9ea05b40-7480-46da-aaa1-31c65aa92228",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "8216f17c-b001-427c-8660-180240e59289",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "c062b27d-2b84-4504-89f3-0ba720f5c44a",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "0c3d8546-f92c-427c-aca7-c370c93a688f",
+          "value": "etl-e0f7e2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e9bb2b57-4cce-40fd-9523-03b8819b11a8",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "e9bb2b57-4cce-40fd-9523-03b8819b11a8|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "70538100-9c46-4da6-8102-3e2f953a432d",
+          "value": "EG The Enforcement Guide"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "8558feb5-6fe9-449f-ac47-8a77123e9ba8",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "0ab42870-3dca-43ca-a730-63d1d89345c9",
+          "value": "EG"
+        }
+      ],
+      "url": [
+        {
+          "id": "f08e2f14-f3dc-471e-9afc-f651499bc2c5",
+          "value": "https://www.handbook.fca.org.uk/handbook/EG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "8abe8897-7cac-4d67-a848-7d4ab4ea2ba3",
+          "value": "EG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "5fd6be5f-0645-4087-b409-897204210b9d",
+          "value": "eg-4da075"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "55fb5e45-e459-4f04-a1e1-476b31e7ac7b",
+          "value": "2024-06-27T13:48:24Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "f5ddc1de-a95e-43d6-9dc1-0109a18e7bba",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "1ce3b7e6-f764-4553-ad91-4a6285e96325",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "7cbe4a66-fd81-4c18-b597-9ccc787539ee",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "8ad82a80-e9c4-454f-952a-4a333dacd045",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "26a5786a-80ef-434c-97b6-e9fff8f915c5",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "26a5786a-80ef-434c-97b6-e9fff8f915c5|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "47177876-65e8-4da8-b323-d0b0e0aafcc4",
+          "value": "COCON Code of Conduct"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "045e963a-b2be-489f-a38c-eb48b7b2744b",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "6836025a-8728-41e7-b4a7-2457c922c4dc",
+          "value": "COCON"
+        }
+      ],
+      "url": [
+        {
+          "id": "bb04b244-c935-48a6-8999-e419a17bcbcc",
+          "value": "https://www.handbook.fca.org.uk/handbook/COCON/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "81bc6c46-a9f8-4c6e-895c-6628315af014",
+          "value": "COCON"
+        }
+      ],
+      "uri": [
+        {
+          "id": "5e21d9a0-5d1c-4d97-a29a-01b0fa09fd1f",
+          "value": "cocon-bc0a56"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "fef28d78-3ad1-4683-8259-13b0f93010ec",
+          "value": "2024-06-27T13:58:02Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "509d94e4-5fba-4efe-a5fd-9ecddd68329a",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "2604d66a-c465-4fcd-bf8a-1b51d81fc300",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "7de1d696-20e7-4b6d-a605-174e91c2a947",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "3c85f27c-85c6-45d9-9380-99fd7cd80fee",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e1696729-252a-41c3-87d7-a6f433060b66",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "e1696729-252a-41c3-87d7-a6f433060b66|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "71302904-f6e1-4895-bc09-47f18e00fb35",
+          "value": "FCG Financial Crime Guide: A firm's guide to countering financial crime risks (FCG)"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "0304e6e0-d9bf-4dad-995f-05bc3bfcbdf2",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "875259d2-9867-43bd-8b2c-3555566673c4",
+          "value": "FCG"
+        }
+      ],
+      "url": [
+        {
+          "id": "14657663-42fd-4c86-a4d0-78f84570e8bc",
+          "value": "https://www.handbook.fca.org.uk/handbook/FCG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "18e852d2-01b3-44f1-9e2e-7b988ae90213",
+          "value": "FCG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "e20d6a90-affe-4e97-9633-6b7bdbd3871f",
+          "value": "fcg-2d1ab6"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "1326dea9-3c91-4451-9f49-033c33b8f6ae",
+          "value": "2024-06-27T13:59:04Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "f9fb6313-bf2f-4c32-8de2-07c04579863b",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "66d4c109-b1da-44cd-94c5-f1dc4f4ffd57",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "e2417f74-4568-4f4b-8287-6ec1b00bd20f",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e34ba07f-5ad8-4990-b455-e63963217bc1",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "10ec672b-9d36-479b-9be0-cef7a143886a",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "10ec672b-9d36-479b-9be0-cef7a143886a|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "3af67dfa-8f18-49f6-8567-57e1492ab8ac",
+          "value": "CONRED Consumer Redress Schemes sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "3e9c3bb1-3854-48aa-9078-e47072d90e0a",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "752648f9-9810-4e0d-920a-992dd13d5fba",
+          "value": "CONRED"
+        }
+      ],
+      "url": [
+        {
+          "id": "6a1999e1-5f37-4d1f-aefd-2ac1129a0698",
+          "value": "https://www.handbook.fca.org.uk/handbook/CONRED/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "4eba60df-6cd1-4219-8038-bc78c8946ac3",
+          "value": "CONRED"
+        }
+      ],
+      "uri": [
+        {
+          "id": "a423feef-06cc-4629-bf2b-216fe70212a6",
+          "value": "conred-455018"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "0647bd53-5a96-44a9-a598-b03ecc87ed94",
+          "value": "2024-06-27T14:00:15Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "2fcaffd7-f4f1-431d-a04c-c806bbba242a",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "83689115-9b88-4482-abf1-a38e1c722d56",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "2f4d844a-6246-43ea-b2bf-e06f9f96fb0e",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "f05480ef-98aa-4c59-83ae-d9ed3204256f",
+          "value": "etl-4439ed"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e8f40bbe-7269-47c0-b7e7-3cfaebef649f",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "e8f40bbe-7269-47c0-b7e7-3cfaebef649f|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "9fc6413d-ae7c-4b27-92b8-d0e846aa71f9",
+          "value": "COND Threshold Conditions"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "89e35a6f-2e84-4165-b04b-47cae4369878",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "d6ed2717-0d8f-4562-b16c-7956bbea6cde",
+          "value": "COND"
+        }
+      ],
+      "url": [
+        {
+          "id": "65b9167d-c47c-4120-b864-9eb546c0fbbf",
+          "value": "https://www.handbook.fca.org.uk/handbook/COND/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "5d0f5dab-8214-4c76-94c7-0a546b7d20c8",
+          "value": "COND"
+        }
+      ],
+      "uri": [
+        {
+          "id": "2906503c-1f00-4d87-a5dc-7aef3237599a",
+          "value": "cond-bf5897"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "e8409044-bf4f-4047-bdb1-795c1e5b0a6b",
+          "value": "2024-06-27T14:00:43Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "811a93ec-0634-414f-bacb-ec703e1d62c0",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "5de93393-6aaa-4cd9-95c7-8c32c86ecc39",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "47f74d7c-32b2-4584-93ea-0041ac1e33a8",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "ea351322-8972-40c7-b0b2-1b79d53bcd0a",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cc116f56-d0e6-470a-b68c-451223ff7d0f",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "cc116f56-d0e6-470a-b68c-451223ff7d0f|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "c5111191-992e-4568-a0ab-022f311ee6cc",
+          "value": "APER Statements of Principle and Code of Practice for Approved Persons"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "e8e3f9f8-d4d1-4a22-a29d-d0319274991e",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "18490412-b740-4042-bb53-bb1e447a6b7d",
+          "value": "APER"
+        }
+      ],
+      "url": [
+        {
+          "id": "655940c1-ee40-4121-835f-052de422a018",
+          "value": "https://www.handbook.fca.org.uk/handbook/APER/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "99321ccd-563f-4bfe-aef8-a1668092572d",
+          "value": "APER"
+        }
+      ],
+      "uri": [
+        {
+          "id": "8c71e20a-7b3f-4018-bdad-ca111ebb508e",
+          "value": "aper-cf47bd"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "4967ac08-f450-4111-9b85-e26dd1a27e5f",
+          "value": "2024-06-27T14:02:31Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "a8505a2f-7790-4743-a09f-b467cafc98b0",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "7c90150c-58b2-447f-9b4f-048c0fd5df8f",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "ef1a5d06-c15f-46ce-aefe-df5f2fdd467f",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "225eee4c-8f68-4480-b04c-de2840ade745",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b00344cf-cd91-4d46-bd5a-d5c430c5f9c3",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "b00344cf-cd91-4d46-bd5a-d5c430c5f9c3|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "f6a37657-d28d-42be-91d6-308a7a965843",
+          "value": "MIPRU Prudential sourcebook for Mortgage and Home Finance Firms, and Insurance Intermediaries"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "0da2d185-46bd-4482-bf20-8c938cf46bc9",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "fbc1d170-fc8c-47f0-af7e-c9f7f7c70e97",
+          "value": "MIPRU"
+        }
+      ],
+      "url": [
+        {
+          "id": "9b8bfe98-69e6-4ff2-828b-ded5a0d3c162",
+          "value": "https://www.handbook.fca.org.uk/handbook/MIPRU/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "24263a24-763a-4810-a462-af363b94ec1f",
+          "value": "MIPRU"
+        }
+      ],
+      "uri": [
+        {
+          "id": "0340cdec-1dd9-4cda-815b-21c8f15a9df4",
+          "value": "mipru-4cc15c"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "c5292a67-bf97-4b4c-868d-54e8661c37ae",
+          "value": "2024-06-27T14:03:31Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "f771ad3e-8ef4-4b93-acd5-616b34ddfc0c",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "0f7fb2f9-651c-4440-8af0-4b2b85cfc7aa",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "93e7606c-87c2-4b07-acee-b3b42660f0ba",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "cef62819-dbdb-404d-aa57-b18959683b9e",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7109ef1c-18db-48c1-b86a-0f0c18c42b64",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "7109ef1c-18db-48c1-b86a-0f0c18c42b64|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "ead4c504-dd66-4160-a7d0-5b69b3cdd402",
+          "value": "FCTR Financial Crime Thematic Reviews"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "91466e23-77c2-405a-9cce-52c7bdbafbea",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "aa134f23-28a8-4beb-95f6-b7a7681d9591",
+          "value": "FCTR"
+        }
+      ],
+      "url": [
+        {
+          "id": "cb417ae1-bf34-4758-9489-c88d2d178246",
+          "value": "https://www.handbook.fca.org.uk/handbook/FCTR/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "68e95054-097b-477f-a8cc-6fc5459382da",
+          "value": "FCTR"
+        }
+      ],
+      "uri": [
+        {
+          "id": "f09af429-a814-4853-b1a4-ae82cedfdfff",
+          "value": "fctr-b430a9"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "25f092bf-6993-468d-881c-574141419a2a",
+          "value": "2024-06-27T14:03:35Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "6feae9e9-737d-4432-8c10-8666dbbe1580",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "37a09274-f5a1-424a-a65f-b364c88b91db",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "a7effb85-24b7-4fdb-ac94-4e4307c5803c",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "7084fd6e-145d-434b-a4e8-c40c511fffbb",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "20faa28d-1609-40a5-8503-8890a1b9c934",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "20faa28d-1609-40a5-8503-8890a1b9c934|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "94a5cf8e-99db-4d8f-880e-b1daf0347438",
+          "value": "FIT Fit and Proper test for Employees and Senior Personnel"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "0c3a2674-d94a-4393-8a24-a3e50340b511",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "5f9c90d3-95f0-46a3-bda1-e8a9a3bc6bab",
+          "value": "FIT"
+        }
+      ],
+      "url": [
+        {
+          "id": "cebf7f64-d4cb-45a3-9bb6-46c7e877c7d8",
+          "value": "https://www.handbook.fca.org.uk/handbook/FIT/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "dead4eb6-16d2-46ed-8eda-2a9e8f5252ef",
+          "value": "FIT"
+        }
+      ],
+      "uri": [
+        {
+          "id": "d60b370b-3db8-450c-8512-634d36ab82c0",
+          "value": "fit-708729"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "e3978ebe-bc4e-4241-a917-ab61f0459424",
+          "value": "2024-06-27T14:04:06Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "6f918205-724b-462c-8359-09e9e9cf291e",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "498ea7ed-3d59-489c-aa1c-5c0a1978a3dd",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "f5e10aed-8a5b-4ff6-9591-d5948a434c9f",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "fe0c1f92-5cda-4733-843f-dd101b16a701",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "57f0eea5-3e2c-4187-b75b-571868d40d91",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "57f0eea5-3e2c-4187-b75b-571868d40d91|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "697abdae-cea9-4c01-8208-008d7a56a34a",
+          "value": "FINMAR Financial Stability and Market Confidence Sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "fe3787cb-65a3-467d-bf97-1e3e22a4350a",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "fe20c210-a9fe-4437-b6d2-8cc882d7f4fc",
+          "value": "FINMAR"
+        }
+      ],
+      "url": [
+        {
+          "id": "39efd045-7f1d-4dae-a721-484b47ced4bb",
+          "value": "https://www.handbook.fca.org.uk/handbook/FINMAR/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "20d846bf-3d8a-4327-ae6f-a7a6c6790e37",
+          "value": "FINMAR"
+        }
+      ],
+      "uri": [
+        {
+          "id": "b6542d7d-74bf-4b76-a9df-fba9a86fccfb",
+          "value": "finmar-c80f61"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "55ae8765-0127-464b-b0d4-837c7913edcf",
+          "value": "2024-06-27T14:04:52Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "94bf74fa-cc16-424a-ad65-93e45b59f57b",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "e97eb42d-c639-4056-a1ca-9a586bf1caf0",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "ba351c84-328c-4c47-a084-71e5ec41edd7",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "0a397814-83bc-4b7a-86f9-5f34f2ce112a",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "414d95a3-6251-4854-87ba-032ae287e3fd",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "414d95a3-6251-4854-87ba-032ae287e3fd|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "76a921cb-5cdc-45fa-8669-83cd4f87eddf",
+          "value": "TC Training and Competence"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "cb99128b-876b-4a59-8307-e8cadf835847",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "8929a877-5723-4493-acf8-87515a9625f5",
+          "value": "TC"
+        }
+      ],
+      "url": [
+        {
+          "id": "3b10c891-cda5-4606-b91c-1e25085fd1eb",
+          "value": "https://www.handbook.fca.org.uk/handbook/TC/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "5f06d472-d862-4822-a10a-a8f156709b55",
+          "value": "TC"
+        }
+      ],
+      "uri": [
+        {
+          "id": "823408f7-2218-4c0e-8100-b181365b2714",
+          "value": "tc-1ac7a7"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "9a6fa14b-8402-4d1c-8591-6dc32963a673",
+          "value": "2024-06-27T14:05:19Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "ef4489a3-f60f-4603-b0fb-6f99238fc99c",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "1aa230d6-8f2f-4cf9-bf51-7ca7ccfdd29b",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "d750f1fc-31f1-4df7-9353-d9feffa71c6b",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "db548a3d-6156-49f8-959b-fbff2fad1d73",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7be1f3a7-1a1e-4bdc-b30c-80685a6f15db",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "7be1f3a7-1a1e-4bdc-b30c-80685a6f15db|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "01ad49a6-9a3d-4dcb-a831-9e3ee9c6af0e",
+          "value": "GEN General Provisions"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "09185ef1-df70-47e4-8d96-928617ec94e7",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "afeef03e-d614-47be-8285-5f6cb94fb6ff",
+          "value": "GEN"
+        }
+      ],
+      "url": [
+        {
+          "id": "96a1f50f-285d-4ae1-8585-daf27a35c49a",
+          "value": "https://www.handbook.fca.org.uk/handbook/GEN/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "114fc4c9-8363-400a-9267-c874808b3f13",
+          "value": "GEN"
+        }
+      ],
+      "uri": [
+        {
+          "id": "a1443304-6b05-4472-8dc8-327fc236ef6b",
+          "value": "gen-8d287c"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "d1cd8ab1-4e8c-4357-b49b-9d37d23d4fb0",
+          "value": "2024-06-27T14:07:41Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "7f1d5f21-1d19-4b9e-a728-d3f83021391d",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "edb00006-31ee-4167-9723-df4d49ed4d9b",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "7ea1f113-6e97-4993-92b1-ad8906b18d0d",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e46e65de-bab5-40dd-b48c-9d0e4bce7f7a",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "728f5ba8-b7b0-418f-8472-e81041bf6b31",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "728f5ba8-b7b0-418f-8472-e81041bf6b31|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "82190e02-43ae-4c3a-8732-49bd46786bd8",
+          "value": "PRR Prospectus Regulation Rules sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "e316d87b-aaa1-4b4d-9711-360129641238",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "6401ffdb-7f68-4093-a8ba-cfd5fe5f5127",
+          "value": "PRR"
+        }
+      ],
+      "url": [
+        {
+          "id": "500e3c5e-914a-47ba-9fd8-245c043fb943",
+          "value": "https://www.handbook.fca.org.uk/handbook/PRR/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "0be32f47-9790-4dd1-a8d5-cf9fa18906c6",
+          "value": "PRR"
+        }
+      ],
+      "uri": [
+        {
+          "id": "ac4bba28-a703-4726-8154-323182cc3080",
+          "value": "prr-ede7f0"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "90862b2c-b83d-4547-9881-3cc4efa04bd8",
+          "value": "2024-06-27T14:08:10Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "84454e4b-a182-4f30-97eb-0ae41663552b",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "15523360-7d1b-46f8-9021-54dab2947879",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "45cdb441-18e7-412e-9555-4da43ebe19e6",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "a95cdcab-7830-4fc2-aeb0-d534e7cfe37a",
+          "value": "etl-e619d9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e7b3d479-1c75-47b9-9fea-01a4527df7bd",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "e7b3d479-1c75-47b9-9fea-01a4527df7bd|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "5306c5ce-09de-4490-b1de-409a3d8bec75",
+          "value": "COMP Compensation"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "453c907e-3fda-48c4-890a-c82cc24a53a4",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "91452a26-b299-4f2a-bbd5-77643ab572d9",
+          "value": "COMP"
+        }
+      ],
+      "url": [
+        {
+          "id": "dba68c55-7369-4a21-9c8d-6d724a5fcf61",
+          "value": "https://www.handbook.fca.org.uk/handbook/COMP/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "95c7e2f2-8088-4f75-a96b-3cb3b4305434",
+          "value": "COMP"
+        }
+      ],
+      "uri": [
+        {
+          "id": "25d2077f-84e3-4d3a-b786-bc91c9b26d89",
+          "value": "comp-185f18"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "13caed50-305d-4bac-9db4-a7950e30f9cd",
+          "value": "2024-06-27T14:08:21Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "c47e6d36-d63a-4c18-a681-5c2442ae343a",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "389df76f-a1f8-4a50-bb38-726ffe639047",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "15105605-8012-469d-9562-b1846cbd23df",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "4f6b53bf-9ceb-411e-9a55-36c95fd70ce8",
+          "value": "etl-4439ed"
+        }
+      ]
+    }
+  },
+  {
+    "id": "41d94928-176d-4687-a3d8-d625d522c7d1",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "41d94928-176d-4687-a3d8-d625d522c7d1|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "1f73c1b9-caff-4a73-ae4d-996b0ff19683",
+          "value": "PERG The Perimeter Guidance Manual"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "0f576bcb-5d27-4a38-a815-557bf30304c9",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "d018d94e-2d5b-4363-b524-d7da2444f485",
+          "value": "PERG"
+        }
+      ],
+      "url": [
+        {
+          "id": "0ba4d44c-de49-407a-8b42-2aa900026622",
+          "value": "https://www.handbook.fca.org.uk/handbook/PERG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "81f29f56-5033-46a0-b818-48ea96736bae",
+          "value": "PERG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "10734a9f-c9f1-4293-8c8b-243247182d33",
+          "value": "perg-f5fff6"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "5640a86d-1ff2-4425-a455-a0a49144afcc",
+          "value": "2024-06-27T14:08:48Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "1a382ac3-6f08-4710-8d49-007ddbb1e6ca",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "cdd3bd05-1ec6-4784-adad-103ff6804739",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "1a504721-0a71-4955-abe5-a5f61ef396a3",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "9d25c36d-fbc1-4651-8d25-94dc7eeb0f25",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1320f49e-802e-4b13-aa8e-c6a1c018a82e",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "1320f49e-802e-4b13-aa8e-c6a1c018a82e|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "281f68c3-61f1-4337-b973-420bbba281d2",
+          "value": "IPRU-FSOC Interim Prudential sourcebook for Friendly Societies"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "2bd5ef6e-1d06-43f2-b89a-2c7a286c612c",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "395c5bf3-124b-4ceb-8c86-381e5fc2619e",
+          "value": "IPRU-FSOC"
+        }
+      ],
+      "url": [
+        {
+          "id": "ca9a0763-07ad-47d9-a954-3fe815424e40",
+          "value": "https://www.handbook.fca.org.uk/handbook/IPRU-FSOC/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "99a1f373-d93f-47ef-886c-71d76060ce13",
+          "value": "IPRU-FSOC"
+        }
+      ],
+      "uri": [
+        {
+          "id": "5e49b02e-e29a-4521-89dc-12da11089fd7",
+          "value": "ipru_fsoc-1166f5"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "e75ea2ca-5190-40a8-ae77-259f2574d9d2",
+          "value": "2024-06-27T14:09:28Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "fe0686e5-e0a4-4360-9006-7eb9eeac9855",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "6c3433ec-e9fb-407e-ba2c-f1da4858d3ab",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "c90bd167-08f1-4fab-ace8-14f489a342e6",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "70ada5b7-b5e1-43d4-8f99-2166f9562bc1",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "862413ef-2f37-4874-ac48-757bf6ca4ac0",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "862413ef-2f37-4874-ac48-757bf6ca4ac0|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "d0ee2163-7c7f-4a38-b0f4-448342900b83",
+          "value": "IPRU-INS Interim Prudential sourcebook for Insurers"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "df42f89a-9f6d-46bb-8d05-8ffe650953e5",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "4583c98e-4fe8-42d2-8387-0b882bd03bc9",
+          "value": "IPRU-INS"
+        }
+      ],
+      "url": [
+        {
+          "id": "50a086ef-bd34-4b44-9511-35e56abb4b62",
+          "value": "https://www.handbook.fca.org.uk/handbook/IPRU-INS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "635464f0-e8b5-4367-9e5f-c27cca6d8978",
+          "value": "IPRU-INS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "0d29e071-1ecf-407f-870d-a776e26986c5",
+          "value": "ipru_ins-755f3c"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "5cc7fa33-c79c-4c99-a9b0-13125892a285",
+          "value": "2024-06-27T14:09:29Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "de5cbd5c-09a7-44e3-8475-4e6d858372d2",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "bdc3a7bc-9dac-4fc8-ba75-d907b7c310e7",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "51283915-4412-4dc7-a1a9-23f6cfc5b15d",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "5f924e62-20ab-4fc0-8fa3-a6475dcf48fa",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "31ebdd49-cfdf-4380-9682-e44b58df20fe",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "31ebdd49-cfdf-4380-9682-e44b58df20fe|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "538d4403-1680-4076-97b3-9d6f39f1adf9",
+          "value": "IPRU-INV Interim Prudential sourcebook for Investment Businesses"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "0600e793-9626-4c99-bb87-92df06ee3155",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "6541b183-1cd4-44b4-aa17-55f04cfe4a1c",
+          "value": "IPRU-INV"
+        }
+      ],
+      "url": [
+        {
+          "id": "10ece6f0-4acc-43bc-b73c-fb20f65038ad",
+          "value": "https://www.handbook.fca.org.uk/handbook/IPRU-INV/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "015f4e4d-a15d-4fc7-ba3a-9df7f44bb703",
+          "value": "IPRU-INV"
+        }
+      ],
+      "uri": [
+        {
+          "id": "2e0d0c2d-e45e-46bd-b326-3996b919a383",
+          "value": "ipru_inv-ba5df3"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "631e4173-cd37-4026-a30b-590bc4495ff6",
+          "value": "2024-06-27T14:09:31Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "14eeab58-bb8b-4406-90f9-534fffdd5fce",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "41c4709b-381e-428c-9487-6f430b5c5768",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "2fb7c81b-c92d-40a3-9a06-dd58ef30c85e",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "c1fe3844-c90e-4040-8245-170bcc267a99",
+          "value": "etl-aa8cb0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "840a3953-50b2-4beb-b333-a16ed8e214a4",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "840a3953-50b2-4beb-b333-a16ed8e214a4|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "d4a68463-d457-49a5-a1b2-9fc527fb5133",
+          "value": "DTR Disclosure Guidance and Transparency Rules sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "df59b156-cf7c-42b8-a36d-04a320bc7c95",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "6439ae7a-ad21-41d6-8bbf-045dec91777d",
+          "value": "DTR"
+        }
+      ],
+      "url": [
+        {
+          "id": "8224ca1d-38b9-4df4-acb6-74e30d678fa4",
+          "value": "https://www.handbook.fca.org.uk/handbook/DTR/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "ed81e6ac-0170-4cd6-9f61-3ea48853085b",
+          "value": "DTR"
+        }
+      ],
+      "uri": [
+        {
+          "id": "459c4b8a-ca1b-490b-bc6e-8138b4fd3ee7",
+          "value": "dtr-144c87"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "92516229-5bfc-46bc-9c16-373cb60bff58",
+          "value": "2024-06-27T14:09:31Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "9fb13e0e-e232-4c7c-ba5d-4e774260cafa",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "2d2d263e-4a14-4fb2-9829-ab865ea9aa6d",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "ee1bcb5c-0515-40ba-aa78-75b9b3b6390a",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "b465b16f-51da-4b36-ba61-f29f6f186ab8",
+          "value": "etl-e619d9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b6404fa0-9464-4646-a212-738a682e0ad8",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "b6404fa0-9464-4646-a212-738a682e0ad8|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "539ef6a6-31bd-4ef3-9ce8-f4afb5f5d359",
+          "value": "FEES Fees Manual"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "fc772e9f-d9c7-4cd8-861f-f49bed87e293",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "b50d26e6-884a-4460-ba65-c1b102ba2039",
+          "value": "FEES"
+        }
+      ],
+      "url": [
+        {
+          "id": "22d8c660-e87d-4bf4-b52f-0c7c0330b12b",
+          "value": "https://www.handbook.fca.org.uk/handbook/FEES/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "85321a56-f710-4e29-80a6-ab79235686e9",
+          "value": "FEES"
+        }
+      ],
+      "uri": [
+        {
+          "id": "e8f82511-143b-49ae-8a7d-a71ebb5eb11a",
+          "value": "fees-cc6ec6"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "0c218b04-43b5-43b7-80cb-6b073b26e19d",
+          "value": "2024-06-27T14:12:22Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "ba854784-c814-400a-aac4-9720111251ce",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "be7f15d9-b1e0-4f69-a91c-12218cf91c86",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "4c469522-1806-4c3f-9f38-865fe6d31b79",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "d0db4c8c-392b-427e-af67-341725651e92",
+          "value": "etl-1a7605"
+        }
+      ]
+    }
+  },
+  {
+    "id": "63b63340-ecce-47fa-a60d-4fc6f41b521a",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "63b63340-ecce-47fa-a60d-4fc6f41b521a|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "5ab6c63c-d617-424a-9c08-efacca3695a5",
+          "value": "DISC Product Disclosure sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "425b20c6-85cd-4579-8e3c-d6d13767cfc5",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "2a2ed49d-94b5-4061-8d31-f7483220362a",
+          "value": "DISC"
+        }
+      ],
+      "url": [
+        {
+          "id": "8cf72f02-d583-4b44-8b64-9c858936a9a3",
+          "value": "https://www.handbook.fca.org.uk/handbook/DISC/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "b603bddc-22ef-45d6-9782-9a7f7e7fd27b",
+          "value": "DISC"
+        }
+      ],
+      "uri": [
+        {
+          "id": "d765c3a2-6e11-4264-b345-7ceb1dec7978",
+          "value": "disc-de5f55"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "6db60bab-c55d-4148-a6fa-3bc0a700ae26",
+          "value": "2024-06-27T14:18:03Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "dd1c04b8-47e6-4926-aaa0-4b9f3d3c77a2",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "90618889-f1e3-4bbf-b7f3-0bda6f4e2f6c",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "711c8ef7-c21c-4be8-b5fc-9443e884c7bd",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e3f5349e-0808-4372-bb84-be0f5e87c35b",
+          "value": "etl-e619d9"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eeb8d39b-4b7a-4493-b093-b6b567e17768",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "eeb8d39b-4b7a-4493-b093-b6b567e17768|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "6d024ece-305f-4947-a9a8-1409e5e06906",
+          "value": "ICOBS Insurance: Conduct of Business sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "0b746d8a-c202-49e4-b220-88dcf7c30a14",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "b1ca3878-7678-40bd-9afa-6490a7d949c4",
+          "value": "ICOBS"
+        }
+      ],
+      "url": [
+        {
+          "id": "1bc53478-15dc-43f0-96be-8582ff439f8b",
+          "value": "https://www.handbook.fca.org.uk/handbook/ICOBS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "2a712ab4-51e2-4f8c-b067-f4f4089dea41",
+          "value": "ICOBS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "101b1da0-a58c-4d05-b6fc-607aa3fa8abf",
+          "value": "icobs-95a815"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "3a2860d4-d92b-4198-9099-9c63c46ff2f2",
+          "value": "2024-06-27T14:31:42Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "cd62fa9b-d060-42c5-822b-dbd533b22ce3",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "4a419020-12f9-4420-aa2c-c01c89d49b75",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "56a212df-9323-4836-8ba2-65079d6d2df3",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "66d913da-5383-495d-9856-6c47a8e06ad0",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "3829aa19-1e81-4e4c-ae25-8037d54307c3",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "3829aa19-1e81-4e4c-ae25-8037d54307c3|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "0856f4bb-0316-410f-8f13-2fd2a0e55126",
+          "value": "DEPP Decision Procedure and Penalties Manual"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "d9da7c3d-8056-49d1-a847-72af843ae595",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "ca837751-1a51-4f37-9cda-49c20feede36",
+          "value": "DEPP"
+        }
+      ],
+      "url": [
+        {
+          "id": "f6ef860a-d79a-4a0d-9d19-f479905ae7e1",
+          "value": "https://www.handbook.fca.org.uk/handbook/DEPP/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "4a91362f-77c1-4808-849a-1bd1b31dfcc5",
+          "value": "DEPP"
+        }
+      ],
+      "uri": [
+        {
+          "id": "500d68c1-ceca-46c7-bddd-d6e059b2c366",
+          "value": "depp-e67e59"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "9c5d93b1-ee0d-4e29-bbd7-e792205e8189",
+          "value": "2024-06-27T14:33:01Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "3f0b1c84-ebbc-461c-9e40-7220dbb2d21a",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "8a1122c5-b54d-49aa-b984-8b181f9e1104",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "8d94c6bf-b681-4dd9-bcb3-ca9562681a28",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "6e879512-eab3-48b7-9f47-0d6b8accbb1c",
+          "value": "etl-b2c047"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fca4965d-843c-406c-8e6e-bba84d72f952",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "fca4965d-843c-406c-8e6e-bba84d72f952|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "309c9e1d-236a-4b50-9a8e-9742c7ded8f4",
+          "value": "MCOB Mortgages and Home Finance: Conduct of Business sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "8963971c-4eb6-41f3-a536-938707370724",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "aa7ae690-27a8-492a-a6c4-e0d3e1d2c679",
+          "value": "MCOB"
+        }
+      ],
+      "url": [
+        {
+          "id": "c0e2684d-ea64-41e5-a176-d3dc3396b49f",
+          "value": "https://www.handbook.fca.org.uk/handbook/MCOB/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "c15ed6e7-5c7c-4ecd-bf60-85f01bba6a13",
+          "value": "MCOB"
+        }
+      ],
+      "uri": [
+        {
+          "id": "bc95e8da-03ba-44dd-aa99-90dcd5bb597f",
+          "value": "mcob-35f5c7"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "546fe695-4231-4ff5-916f-b6dc5df3d8f4",
+          "value": "2024-06-27T14:39:39Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "598c305e-d188-4c0d-ad37-c79bd4b6eaba",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "22b37f38-3fa9-49f4-93b7-f4887d1aeb85",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "d75a7bc4-c09d-427f-956a-e23cba72090d",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "dda4a1f0-750a-4876-8740-980025fdc13f",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "fe0c0dcb-a6de-4491-bb95-04371b379a7a",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "fe0c0dcb-a6de-4491-bb95-04371b379a7a|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "a963c6cd-bb6b-42e0-94cc-7978b7a40f4a",
+          "value": "RFCCBS FCA Registration Function under the Co-operative and Community Benefit Societies Act 2014 Guide"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "8ea7fff7-07bb-459e-8d86-8410367a047b",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "301ae1a4-d762-46b0-8d9e-ae6381ddbb92",
+          "value": "RFCCBS"
+        }
+      ],
+      "url": [
+        {
+          "id": "4628cae4-da81-434d-8cbd-7234f852dd8d",
+          "value": "https://www.handbook.fca.org.uk/handbook/RFCCBS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "4d3ec519-3358-45d9-b5ea-5730e50393d4",
+          "value": "RFCCBS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "9431ab98-b763-4e2b-a2cd-1056fc81f10f",
+          "value": "rfccbs-710ef4"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "11ba7d51-96bd-4d99-9667-cdf3484429d8",
+          "value": "2024-06-27T14:41:36Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "e34fdf33-98d6-4d56-a704-61ba6a3a9cfb",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "3080ae4f-19bd-49c8-b529-489dd8bf58f4",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "72b066c6-4572-4eae-a56e-aeb1155e07db",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "91192558-b94f-4cec-aa8c-d466f4e89106",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cd35d0ba-abf1-4238-8169-106891190555",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "cd35d0ba-abf1-4238-8169-106891190555|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "a74c27b9-a0a9-4a4e-b8f2-392388dd711f",
+          "value": "RPPD The Responsibilities of Providers and Distributors for the Fair Treatment of Customers"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "bd017c21-f970-412c-bfeb-1d479fcc6d26",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "6c846c6e-f464-4e90-b504-e6d937726933",
+          "value": "RPPD"
+        }
+      ],
+      "url": [
+        {
+          "id": "7bdd2e37-f640-4855-8ad9-848efb7b6543",
+          "value": "https://www.handbook.fca.org.uk/handbook/RPPD/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "fdda0a24-1c18-4dd0-9ce3-3aea3bbbcc3f",
+          "value": "RPPD"
+        }
+      ],
+      "uri": [
+        {
+          "id": "501d55c2-9a07-4bd9-8570-5f9831cbf3e3",
+          "value": "rppd-2c05e2"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "be8d0714-70b7-4a4b-9b9f-f6e034afe8dc",
+          "value": "2024-06-27T14:47:41Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "c3eb1426-1ca3-4cc2-ab52-1994d0bb6821",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "da733e5f-cc39-4ce1-98bf-d34b484b1cc7",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "34de4bed-f591-414a-8720-ad99356c433c",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "dfebb43c-bedf-4594-beea-7c241e2c51fc",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7b8f274f-2c59-4736-af48-5385d9069027",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "7b8f274f-2c59-4736-af48-5385d9069027|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "bb40958e-6178-4612-b0f9-2d0a723ae7c5",
+          "value": "UNFCOG The Unfair Contract Terms and Consumer Notices Regulatory Guide"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "03e03ed3-b6aa-4179-981d-edf945187b87",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "231f1adb-8465-4575-9daf-9e8ab8a5c719",
+          "value": "UNFCOG"
+        }
+      ],
+      "url": [
+        {
+          "id": "dc02e025-894a-4a0c-987a-e6fd309b53c1",
+          "value": "https://www.handbook.fca.org.uk/handbook/UNFCOG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "3c0d51cb-dcad-45ba-889c-01187ebf801c",
+          "value": "UNFCOG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "6f9893bd-664c-45dd-b3dd-634ad844e790",
+          "value": "unfcog-a7af44"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "36538f77-1a1d-40c3-99bd-e2f55f8090dd",
+          "value": "2024-06-27T14:47:49Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "c7540a5a-757b-4ca2-ab7e-0818b9ab9033",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "3513b478-9ba1-4eed-a728-cb7407f3cc8d",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "c28b73aa-e41f-4505-9747-74d1c5e1f374",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "fc688424-689b-46f5-8947-7c6b0ce25e30",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6e1bbf5d-d1aa-43b7-ad96-fdcdede94c12",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "6e1bbf5d-d1aa-43b7-ad96-fdcdede94c12|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "5d7d7096-cc7c-407c-a3aa-978c81876f65",
+          "value": "WDPG The Wind-down Planning Guide"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "f8d665b2-5890-4452-9179-ee6369a668bf",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "ad2bb88c-77f8-4d27-8d96-39732ff169fd",
+          "value": "WDPG"
+        }
+      ],
+      "url": [
+        {
+          "id": "ce13a484-b11f-4c6a-b909-67d6815b6e44",
+          "value": "https://www.handbook.fca.org.uk/handbook/WDPG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "2182db2e-3f2c-4148-a33e-1b842e20ca85",
+          "value": "WDPG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "827ac1c4-75ab-4f94-834d-f08e3bd4a200",
+          "value": "wdpg-968895"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "299a8772-8a8c-46be-8832-8518105d0c14",
+          "value": "2024-06-27T14:48:26Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "ca3ba0b2-475c-4590-8305-cd7bb7cb34d1",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "bb441df1-4392-44c7-adf9-005bfc8e9e5d",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "6594720c-8de8-4f04-996e-3123c13e408a",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "8d2e395a-fa39-49c9-ab3e-e85510b64248",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e2f5f72e-2332-4a90-9f42-b1d569fce412",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "e2f5f72e-2332-4a90-9f42-b1d569fce412|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "31b6cee4-2f32-4a11-b6ec-94b0131b9497",
+          "value": "M2G The MiFID 2 Onshoring Guide"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "c2112822-1bad-47ad-8d16-f2c64d4f0790",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "1fc2a9ea-246b-4456-aed6-4abacace4e96",
+          "value": "M2G"
+        }
+      ],
+      "url": [
+        {
+          "id": "d70aed67-6e03-45f0-8a1d-e0282680817a",
+          "value": "https://www.handbook.fca.org.uk/handbook/M2G/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "b9181a65-cd10-453b-9759-c0b431f9da55",
+          "value": "M2G"
+        }
+      ],
+      "uri": [
+        {
+          "id": "fae13077-3917-4e8c-8cad-f1f0fff26c37",
+          "value": "m2g-e67498"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "169cc5df-2e07-437a-a008-ccec1ac5bb4d",
+          "value": "2024-06-27T14:50:11Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "7b5b5bdf-3c16-40ae-aac2-0ed4b23342a7",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "8e52dee6-c8b8-4b4b-876b-8b34630debc3",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "57ecb245-0628-4cef-b3b4-089f90756359",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "126dfc59-b76f-4602-b588-21a191c52e11",
+          "value": "etl-f8e944"
+        }
+      ]
+    }
+  },
+  {
+    "id": "5b2ebbe7-f414-4896-aad1-a85b8a280360",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "5b2ebbe7-f414-4896-aad1-a85b8a280360|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "3c124433-2bea-42ee-b455-b9d9f96092e6",
+          "value": "BCOBS Banking: Conduct of Business sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "1fa2d680-d143-4991-a095-5ec412e7cb8e",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "c57df45c-8e75-45c7-b28f-3410ccddeba0",
+          "value": "BCOBS"
+        }
+      ],
+      "url": [
+        {
+          "id": "0711282d-9c8c-4ce7-b6e3-5613be01fb1b",
+          "value": "https://www.handbook.fca.org.uk/handbook/BCOBS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "351cc749-f4b6-4f96-98b8-da67534b4043",
+          "value": "BCOBS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "bd04160a-03de-46f4-8b0d-0a3c72c38e32",
+          "value": "bcobs-b19f75"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "99a8b89e-10ee-4702-8627-aba6ac5e0ea2",
+          "value": "2024-06-27T15:06:58Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "2e8327ba-0b89-4b21-b283-e9d4090be612",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "aeecc0cd-baad-4fe0-a947-b761f4051cf8",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "37ed59c8-c99c-4c04-9a81-9fa5f6246675",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "8c0630de-3b28-43fc-ae52-ab2359a8ff65",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "1842dcc4-4edb-4886-9598-8da674c1cd85",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "1842dcc4-4edb-4886-9598-8da674c1cd85|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "237b14f0-5ee5-4be4-94fc-d951cce64469",
+          "value": "CMCOB Claims Management: Conduct of Business sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "51120628-235f-4ee4-a80f-eac886675b00",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "3ccf4bb6-c1d5-419e-91de-d26814b5a713",
+          "value": "CMCOB"
+        }
+      ],
+      "url": [
+        {
+          "id": "e79291e2-62d3-4c58-ba04-1ba72c5cd149",
+          "value": "https://www.handbook.fca.org.uk/handbook/CMCOB/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "d36e2e92-0622-43ce-ab30-fff523e0d3a4",
+          "value": "CMCOB"
+        }
+      ],
+      "uri": [
+        {
+          "id": "ea75c216-4b23-4442-bb82-d5263a8f2f0f",
+          "value": "cmcob-3119a9"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "48940aed-1ace-4e79-850b-67c1e6ef1938",
+          "value": "2024-06-27T15:14:58Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "b3221659-70c9-495f-8be8-c00bae26890c",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "7d40a652-200c-4671-92f3-4017a5f0b887",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "63f4f99f-c303-4819-93cf-068e37bee52d",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "a15ac194-ce46-4112-87cb-5bda183cad46",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "ce19e67d-6b7f-4ee8-b99f-1d9244062d5a",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "ce19e67d-6b7f-4ee8-b99f-1d9244062d5a|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "6b7af061-05cf-4b9b-a24a-c7946fcb954d",
+          "value": "FPCOB Funeral Plan: Conduct of Business sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "d33d17f2-c1a8-413b-b19d-565468f031c9",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "18dd6587-42b2-4934-b426-71295d48c82e",
+          "value": "FPCOB"
+        }
+      ],
+      "url": [
+        {
+          "id": "ade7d277-57ae-4dd3-a408-362457c5c5e9",
+          "value": "https://www.handbook.fca.org.uk/handbook/FPCOB/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "9a14b771-263c-4bea-bc80-449c7c69a6ff",
+          "value": "FPCOB"
+        }
+      ],
+      "uri": [
+        {
+          "id": "a2beb6e5-b3fa-4c0a-8eba-af80b34e8923",
+          "value": "fpcob-2ac107"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "77ee3299-7337-4cfe-9dad-1a10606f4deb",
+          "value": "2024-06-27T15:21:03Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "9dee18ab-25f4-4360-8c65-dae4db8d6cea",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "b465b4c9-b2b2-4e9e-8be5-8d805586faf2",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "9e3890a2-a16f-4034-895a-aa18d6f9dc72",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e8f78289-b26d-4b31-91a0-294817748030",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "a09dd376-c306-42e4-b1c3-280eac81bc14",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "a09dd376-c306-42e4-b1c3-280eac81bc14|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "8142b684-3769-40cc-8c14-53295a739f8b",
+          "value": "CASS Client Assets"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "cfad6650-ebb5-414d-b86f-b2e3c529a5d5",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "35300263-06cb-4b45-83f5-722ab4c5c2f1",
+          "value": "CASS"
+        }
+      ],
+      "url": [
+        {
+          "id": "69396cad-e275-4bb8-95c2-490c5ca6a3cd",
+          "value": "https://www.handbook.fca.org.uk/handbook/CASS/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "9c42a0de-a0aa-4608-8f79-105041f51e00",
+          "value": "CASS"
+        }
+      ],
+      "uri": [
+        {
+          "id": "2f7bff26-0f3d-41bb-8e96-056ce2507fda",
+          "value": "cass-830f8d"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "806e8693-3c94-41ea-9a2c-3518243ca9d8",
+          "value": "2024-06-27T15:29:34Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "3250e3a6-a290-4005-9eab-78d47c7f3774",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "1be27150-6554-4937-b8ee-d46ad7958f63",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "05283d4c-b5f6-4a78-9056-a01bf6524917",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "694850a5-cfde-46fc-9a66-122172a7095f",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "41defa44-b278-4bc1-b58f-5173d5ab0a83",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "41defa44-b278-4bc1-b58f-5173d5ab0a83|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "bd612b5c-36a3-47fc-b175-f88929adf993",
+          "value": "MAR Market Conduct"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "fbb8bbec-9f32-4f9b-9c97-15728092b821",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "5bd9256f-bfa8-48f8-ad7c-c112ced1dd49",
+          "value": "MAR"
+        }
+      ],
+      "url": [
+        {
+          "id": "87234c83-33f0-416b-ab2a-09d4d35da5f4",
+          "value": "https://www.handbook.fca.org.uk/handbook/MAR/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "627e8dc5-df23-4abc-9346-2556aa8776ad",
+          "value": "MAR"
+        }
+      ],
+      "uri": [
+        {
+          "id": "540dd95a-286b-4821-99c9-96bbe0fea696",
+          "value": "mar-2f1e43"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "64a88c42-d082-46fc-952a-46a96797682b",
+          "value": "2024-06-27T15:54:31Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "e4370904-773f-40d0-86fc-d1d14d6bbe9c",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "6baa35c4-9918-4a97-ba27-c597a9236035",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "8a1bf7e2-1f6e-44b9-8869-0b991cafd805",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "2e29a85e-da5e-408a-88bd-99d5b0c92bec",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "f81243b9-b4cc-442b-a6a4-16a13efcb663",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "f81243b9-b4cc-442b-a6a4-16a13efcb663|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "e95dccad-27c9-4b8f-a5f3-55887319bccb",
+          "value": "PROD Product Intervention and Product Governance Sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "200d1116-e88b-4363-b8a8-3f00f1749e1d",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "7e893e13-e1cb-4d5b-9c74-c9796089f7c1",
+          "value": "PROD"
+        }
+      ],
+      "url": [
+        {
+          "id": "418382a7-ef31-43f7-b7c1-92fcd4fbe125",
+          "value": "https://www.handbook.fca.org.uk/handbook/PROD/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "5774257f-4f2c-4a8c-9dfe-b2edc4faea06",
+          "value": "PROD"
+        }
+      ],
+      "uri": [
+        {
+          "id": "03a6f1b1-e939-4f5a-aa03-c19f2ed2355b",
+          "value": "prod-ffaea2"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "07036b75-dddb-4e58-9ac6-5b7cd93cfe3c",
+          "value": "2024-06-27T16:08:10Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "c75c2360-729f-40b7-958c-f6512b5a8b66",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "e1653db5-20f5-41e6-b28a-d7234746017c",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "c2821fc0-1aa3-4c69-a937-4b4820529741",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "e571b3d9-c930-40a0-a445-707fecc1e453",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bbda6b9b-40ab-47c5-ad3c-6464a7cc27e3",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "bbda6b9b-40ab-47c5-ad3c-6464a7cc27e3|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "1870df29-11a8-46e0-9831-b5efbc01fcc2",
+          "value": "ESG Environmental, Social and Governance sourcebook"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "ae3bbf53-75e2-4f7a-aed9-32db753530d4",
+          "value": "document"
+        }
+      ],
+      "citation": [
+        {
+          "id": "d0076407-3851-4a49-b55f-0f54c9d083f0",
+          "value": "ESG"
+        }
+      ],
+      "url": [
+        {
+          "id": "93ac6c5c-eaa8-41dc-98cf-4b43f4590708",
+          "value": "https://www.handbook.fca.org.uk/handbook/ESG/"
+        }
+      ],
+      "shortName": [
+        {
+          "id": "2864e688-9e12-4055-93da-03ac4407cd78",
+          "value": "ESG"
+        }
+      ],
+      "uri": [
+        {
+          "id": "11bc95e5-1257-4837-a7e7-a9663648db76",
+          "value": "esg-a5d915"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "81b233d5-b086-4b69-85cc-39f3066fe931",
+          "value": "2024-06-27T16:16:07Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "f1f02930-8243-40c4-a6b7-fc5a9f513633",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "c90a5300-bbca-4109-93af-bac5425cc9b5",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "c3fa5ca6-e182-4d40-a66b-edce596c4f37",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "eff90056-acea-4a91-b679-a83ba5ee2f49",
+          "value": "etl-ece42e"
+        }
+      ]
+    }
+  },
+  {
+    "id": "365de048-7100-4378-9122-63ae7e30c774",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "citation": [
+        {
+          "id": "6ba9bdba-0801-4d4e-8d1e-2aacf36bd5c9",
+          "value": "SI 2011/99"
+        }
+      ],
+      "name": [
+        {
+          "id": "1a38c52c-a672-4371-bf91-f62980a7f686",
+          "value": "The Electronic Money Regulations 2011"
+        }
+      ],
+      "jurisdiction": [
+        {
+          "id": "365de048-7100-4378-9122-63ae7e30c774|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "deca4825-1c4f-450c-8772-db82c2a016fb",
+          "value": "document"
+        }
+      ],
+      "url": [
+        {
+          "id": "0b82ad35-f8f7-4f48-9c15-bce39cdc90bb",
+          "value": "http://www.legislation.gov.uk/uksi/2011/99"
+        }
+      ],
+      "uri": [
+        {
+          "id": "d43af763-b66a-4171-b37a-204882c05d7f",
+          "value": "si__2011_99-827ed2"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "2869847c-6b94-4f0b-a008-61b84f5f6d5f",
+          "value": "2024-07-03T10:23:46Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "247b9fa6-82ba-481e-8c5e-45eccd904a15",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "cf8a9e30-de88-40f5-8e5d-371dc9146b7f",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "5c6d3cea-c8ed-481d-9ca7-f3adc2980347",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "5551a2af-dbac-4ca6-8dff-552a6cc4438f",
+          "value": "etl-471983"
+        }
+      ]
+    }
+  },
+  {
+    "id": "e86bc8fc-a169-4d41-b7b4-e87bc5073aaa",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "citation": [
+        {
+          "id": "332b0775-d704-4a7b-8ea4-04c15aebed68",
+          "value": "SI 2017/752"
+        }
+      ],
+      "name": [
+        {
+          "id": "732df0de-2101-4b0c-82eb-ab2ae6093a13",
+          "value": "The Payment Services Regulations 2017"
+        }
+      ],
+      "jurisdiction": [
+        {
+          "id": "e86bc8fc-a169-4d41-b7b4-e87bc5073aaa|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "c6cd5b5d-f53c-4397-836e-aeb6ee891c2f",
+          "value": "document"
+        }
+      ],
+      "url": [
+        {
+          "id": "ee1f767c-0c9d-4d33-82eb-79d48ef97646",
+          "value": "http://www.legislation.gov.uk/uksi/2017/752"
+        }
+      ],
+      "uri": [
+        {
+          "id": "bff8b920-3712-4192-aa7d-63df09aa5f50",
+          "value": "si__2017_752-909b42"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "850a8088-4752-4d5e-b23b-09c5d86b068a",
+          "value": "2024-07-03T14:15:37Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "291ac1c0-b639-4df8-9f16-9ab046846220",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "aea7c561-6474-442c-9180-9ea27b3bb35a",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "44e55328-a9af-4971-94a9-90818351672d",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "322462f1-2157-4f15-9474-c0b7374ff6c0",
+          "value": "etl-65c342"
+        }
+      ]
+    }
+  },
+  {
+    "id": "73c4743d-812b-46cf-b51d-69a71a6177e3",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "73c4743d-812b-46cf-b51d-69a71a6177e3|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "6c13e9fa-3f61-4667-8d84-ff8b8f5c1d9f",
+          "value": "2012"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "a16263c1-f0ed-4cd6-9cb3-282d568b4b98",
+          "value": "document"
+        }
+      ],
+      "url": [
+        {
+          "id": "f41f7286-fa66-4e51-b8d3-feace224a43b",
+          "value": "https://www.legislation.gov.uk/uksi/2012/1759/contents"
+        }
+      ],
+      "citation": [
+        {
+          "id": "63f1612f-547e-47a5-89fd-ceb8cdc24c80",
+          "value": "2012"
+        }
+      ],
+      "uri": [
+        {
+          "id": "a6f84f69-78c9-4a4d-9948-38cdf75f13a5",
+          "value": "2012-c8bcec"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "923837e1-23be-429c-8579-f552b22b8ce6",
+          "value": "2024-08-07T17:24:08Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "b3027bd1-b548-4787-9f2e-95fbaa9d0f40",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "39bf9d95-4e5c-4264-ac59-dc3e92603a60",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "6e23082a-aa24-4b8a-8321-869a1d5fe6f8",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "df6fafb2-55c4-4ba9-abe5-6a640dc435d5",
+          "value": "etl-7e1ad1"
+        }
+      ]
+    }
+  },
+  {
+    "id": "47a8dd9a-a35a-427b-b177-f3f79ef83728",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "47a8dd9a-a35a-427b-b177-f3f79ef83728|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "dbaa8003-e633-42d3-8b93-400d8a8f398e",
+          "value": "2018 1201"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "99c450d9-5e6a-4ee0-9059-4e2c0d31ed5d",
+          "value": "document"
+        }
+      ],
+      "url": [
+        {
+          "id": "2d510a30-e747-4e08-a5ea-4d91e42a2a8a",
+          "value": "https://www.legislation.gov.uk/uksi/2018/1201/contents"
+        }
+      ],
+      "citation": [
+        {
+          "id": "6ce940d9-a313-4f5e-b976-b2409715b5c2",
+          "value": "2018 1201"
+        }
+      ],
+      "uri": [
+        {
+          "id": "0151e110-8457-4972-aedf-57795f468af4",
+          "value": "2018__1201-9ad991"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "481b9bb6-363a-4434-bd2e-39aa0b33693c",
+          "value": "2024-08-09T01:05:33Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "22994023-565f-49a1-a225-8d43dc1581ed",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "22e5d47f-10a0-4d45-bc11-c48e658de0c1",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "b6848a9b-19a9-42fb-9819-3134eac4e1df",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "2501cd13-68a1-4446-8b6c-88c6926784f3",
+          "value": "etl-8c646a"
+        }
+      ]
+    }
+  },
+  {
+    "id": "6ae0cdac-1379-412d-af14-c4a534b2005d",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "6ae0cdac-1379-412d-af14-c4a534b2005d|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "2ccb190b-70f3-4345-a3b3-9451654e7e09",
+          "value": "2018 1201"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "875962d2-ea68-4930-9b64-f785064642d4",
+          "value": "document"
+        }
+      ],
+      "url": [
+        {
+          "id": "43e5a088-d600-4e16-87dd-117ba8e7a835",
+          "value": "https://www.legislation.gov.uk/uksi/2018/1201/contents"
+        }
+      ],
+      "citation": [
+        {
+          "id": "0b001ee6-b928-4eef-b118-cd7cc6db4a5b",
+          "value": "2018 1201"
+        }
+      ],
+      "uri": [
+        {
+          "id": "bb4b55ab-2550-4fe6-b84d-0f20776be2f8",
+          "value": "2018__1201-06e75c"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "65720d76-1a47-491e-80d3-4235accdb721",
+          "value": "2024-08-07T18:17:06Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "2ef0c4b5-baac-4599-8afa-e951970acb2e",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "6c3a0f45-ede8-4ee2-a907-1863b4a2c5b6",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "bf9f8599-c0c6-47cf-96ba-c49e1ba894ba",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "208180f3-d235-4814-b5d4-57645e7ab2b6",
+          "value": "etl-0ea4df"
+        }
+      ]
+    }
+  },
+  {
+    "id": "7182d896-fa9c-48a2-9052-baece8b4ad29",
+    "label": "Artifact",
+    "type": "vertex",
+    "properties": {
+      "jurisdiction": [
+        {
+          "id": "7182d896-fa9c-48a2-9052-baece8b4ad29|jurisdiction",
+          "value": "GB"
+        }
+      ],
+      "name": [
+        {
+          "id": "5749b9ed-d27a-4dcb-b1dc-6ce9b1e05b9d",
+          "value": "2018 1201"
+        }
+      ],
+      "rpType": [
+        {
+          "id": "4e2564b6-3d48-429a-ad2c-7aa25c83c20c",
+          "value": "document"
+        }
+      ],
+      "url": [
+        {
+          "id": "d62bda0f-d3bd-4da6-a60e-ec929426c98a",
+          "value": "https://www.legislation.gov.uk/uksi/2018/1201/contents"
+        }
+      ],
+      "citation": [
+        {
+          "id": "03c22ed1-187e-4ed0-9b48-54b2f1cd8917",
+          "value": "2018 1201"
+        }
+      ],
+      "uri": [
+        {
+          "id": "883eb33e-1a7f-4aac-ae2d-c181ad18de13",
+          "value": "2018__1201-dee027"
+        }
+      ],
+      "dateAdded": [
+        {
+          "id": "52bca419-b46d-4771-9640-75d51897be13",
+          "value": "2024-08-08T18:06:23Z"
+        }
+      ],
+      "uiMeta": [
+        {
+          "id": "d45a8b2f-6802-41b9-a0db-21eef492fd05",
+          "value": "000000-000000-000000-000000-000000"
+        }
+      ],
+      "version": [
+        {
+          "id": "f4d156cf-671e-4694-9ede-d2f341d2b956",
+          "value": 1
+        }
+      ],
+      "rpCurrent": [
+        {
+          "id": "16349d5a-2f6a-430d-9387-25f1f674d15f",
+          "value": true
+        }
+      ],
+      "etlIngestionId": [
+        {
+          "id": "b03a9c3a-491b-4910-8df1-ad7402ca2bdb",
+          "value": "etl-436bef"
+        }
+      ]
+    }
+  }
+]
