@@ -30,7 +30,8 @@ async function processTocNode(node: CheerioElement, $: cheerio.CheerioAPI, paren
   const entryTitleAttribute = entryLink.attr("title")?.replace("Contains - ", "") ?? "";
   const children = $("> ul > li", node);
   const childCodes = entryTitleAttribute.split(", ").map(s => s.trim());
-  const entryCode = forceCode ? `${tocData.code}-${forceCode}` : `${tocData.code}-${slugify(entryTitle)}`;
+  // const entryCode = forceCode ? `${tocData.code}-${slugify(forceCode)}` : `${tocData.code}-${slugify(entryTitle)}`;
+  const entryCode = getTocCode(entryTitle, tocData, forceCode);
   const entryType = children.length ? "collection" : "document";
   // console.log("entryCode", entryCode);
   const entry: ParsedNodeWithChildren = {
@@ -51,18 +52,42 @@ async function processTocNode(node: CheerioElement, $: cheerio.CheerioAPI, paren
     text: "",
     children: [],
   };
-  addCode(entryCode, entry);
   parent.children.push(entry);
   if (entryType === "collection") {
     let childIndex = 0;
+    addCode(entryCode, entry);
     for (const child of children) {
       await processTocNode($(child), $, entry, tocData, childCodes, childIndex);
       childIndex += 1;
     }
   } else if (entryType === "document") {
+    const updatedDocCode = getDocumentCode(entry, tocData);
+    entry.code = updatedDocCode;
+
+    addCode(entry.code, entry);
     await processDocument(entry, node, parent, tocData)
   }
   return entry;
+}
+
+function getTocCode(entryTitle: string, tocData: ParsedNodeWithChildren, forceCode?: string) {
+  if (forceCode) {
+    return `${tocData.code}-${slugify(forceCode)}`;
+  }
+
+  return forceCode ? `${tocData.code}-${slugify(forceCode)}` : `${tocData.code}-${slugify(entryTitle)}`;
+}
+
+function getDocumentCode(entry: ParsedNodeWithChildren, tocData: ParsedNodeWithChildren) {
+  const url = entry.metadata.sourceUrl as string;
+  const path = url
+    .replace("https://www.handbook.fca.org.uk/handbook/", "")
+    .replace(".html", "")
+    .replace("-", "negative")
+    .replace("/", "-")
+    .replaceAll("/", ".");
+  const code = `${tocData.code}-${slugify(path)}`;
+  return code;
 }
 
 const SKIPPED: string[] = [];
@@ -70,14 +95,19 @@ function skip(msg: string) {
   SKIPPED.push(msg);
 }
 
+let documentCounter = 0;
 async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElement, parent: ParsedNodeWithChildren, tocData: ParsedNodeWithChildren) {
   // console.log(entry.title);
   process.stdout.write(".");
+  if (++documentCounter % 100 === 0) {
+    console.log("");
+  }
   const { children, ...rest } = entry;
   const doc: ParsedNode = rest;
   // collect article html from page
   const html = await collectArticleHtml(doc.metadata.sourceUrl as string);
   const $ = cheerio.load(html);
+  let currentParents = entry.parents;
   let currentSection = entry;
   let currentSectionIndex = 0;
   let semanticSectionIndex = 0;
@@ -101,6 +131,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
       semanticSectionIndex++;
       const title = getSectionTitle(section, $);
       // console.log("isSection", title);
+      const nextParents = [...entry.parents, { title:entry.title, code: entry.code, type: entry.type } ]
       const nextSection = {
         original: {},
         jurisdiction: "GB",
@@ -108,7 +139,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
         metadata: {},
         code: `${entry.code}-section-${semanticSectionIndex}`,
         citation: "",
-        parents: [...currentSection.parents],
+        parents: nextParents,
         type: "section",
         title: title,
         markdown: "",
@@ -116,7 +147,9 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
         children: [],
       };
       entry.children.push(nextSection);
+      currentParents = nextParents;
       currentSection = nextSection;
+
       addCode(currentSection.code, currentSection);
     } else if (isArticle(section)) {
 
@@ -134,7 +167,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
         if (!coreArticleCode || coreArticleCode.trim() === "") {
           skip("COULDNT FIND CODE: " + entry.metadata.sourceUrl);
         }
-        const fullArticleCode = `${entry.code}-${coreArticleCode}`
+        const fullArticleCode = `${tocData.code}-${coreArticleCode}`
         // console.log(articleCode);
         const article: ParsedNode = {
           original: {},
@@ -143,7 +176,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
           metadata: {},
           code: fullArticleCode,
           citation: "",
-          parents: [...currentSection.parents, { code: currentSection.code, title: currentSection.title, type: currentSection.type }],
+          parents: [...currentParents, { code: currentSection.code, title: currentSection.title, type: currentSection.type }],
           type: "article",
           title: `${getSectionTitle(section, $)} ${coreArticleCode}`.trim(),
           markdown: "",
@@ -169,9 +202,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
         }
         addCode(article.code, article);
 
-        if (Math.random() > 0.999) {
-          await saveArticle(article);
-        }
+        // await saveArticle(article);
 
         // if (Math.random() > 0.999) {
         //   console.log("-----")
@@ -190,15 +221,27 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
     await walkSection();
   }
   await walkSection();
+
   // now we can save the Document, which contains Sections + ArticlesWithNoContent
-  if (Math.random() > 0.999) {
-    await saveDocument(entry);
-  }
-  // throw new Error("STOP");
+  // await saveDocument(entry);
+
+  // if (saveDocsCount++ > 100) {
+  //   throw new Error("STOP");
+  // }
 }
+let saveDocsCount = 0;
 
 const allCodes = new Map<string, unknown>();
-function addCode(code: string, thing: unknown) {
+function addCode(code: string, thing: any) {
+  code = code.replaceAll(":", "-");
+
+  if (code === "GB-FCA-FCA-handbook-RFCCBS-1") {
+    // there's RFCCBS 1 and RFCCBS -1 ... sigh
+    if (thing.metadata.sourceUrl === "https://www.handbook.fca.org.uk/handbook/RFCCBS/-1/?view=chapter") {
+      code = "GB-FCA-FCA-handbook-RFCCBS--1";
+      thing.code = code;
+    }
+  }
   if (allCodes.has(code)) {
     // console.error("----DUPLICATE CODE ... existing thing:");
     // console.error(allCodes.get(code));
@@ -210,7 +253,14 @@ function addCode(code: string, thing: unknown) {
       // console.error((thing as any).code);
       addCode((thing as any).code, thing);
     } else {
-      throw new Error(`DUPLICATE CODE ${code}`)
+      console.error("");
+      console.error("DUPLICATE CODE");
+      
+      const existing = allCodes.get(code) as ParsedNodeWithChildren;
+      const incoming = thing as ParsedNodeWithChildren;
+      console.log(existing.code, existing.metadata.sourceUrl, existing.title);
+      console.log(incoming.code, incoming.metadata.sourceUrl, incoming.title);
+      // throw new Error(`DUPLICATE CODE ${code}`)
     }
   }
   allCodes.set(code, thing);
@@ -294,7 +344,7 @@ function getCoreArticleCode(currentSection: ParsedNodeWithChildren, el: cheerio.
     }
   }
   if (!code) {
-    code = `article-${currentSection.children.length + 1}`;
+    code = `${currentSection.code}-article-${currentSection.children.length + 1}`;
   }
   
   if (allCodes.has(code)) {
@@ -307,7 +357,9 @@ function getCoreArticleCode(currentSection: ParsedNodeWithChildren, el: cheerio.
 }
 
 function getSectionTitle(el: cheerio.Cheerio<Element>, $: cheerio.CheerioAPI) {
-  return $("header", el).text().trim();
+  const clone = el.clone();
+  clone.find("header a.changed-by").remove();
+  return $("header", clone).text().trim();
 }
 function isSection(el: cheerio.Cheerio<Element>) {
   const headerEl = el.find("header");
