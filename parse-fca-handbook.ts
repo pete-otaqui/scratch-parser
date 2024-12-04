@@ -3,8 +3,9 @@ import * as cheerio from "cheerio";
 import { pullThroughCache, pullThroughFetchText, turndownService } from "./utils.js";
 import { ParsedNode, ParsedNodeWithChildren } from "./types.js";
 import slugify from "slugify";
-import { getDocumentsContainer, saveDocument } from "./cosmos.js";
+import { getArticlesContainer, getDocumentsContainer, saveArticle, saveDocument } from "./cosmos.js";
 import { AnyNode, Element } from "domhandler";
+import { Container } from "@azure/cosmos";
 
 function absoluteUrl(url?: string) {
   if (!url) {
@@ -91,7 +92,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
     // throw new Error("Could not find any sections");
     return;
   }
-  function recurse() {
+  async function walkSection() {
     const section = $(sections.get(currentSectionIndex));
     if (!section.length) {
       return;
@@ -100,7 +101,7 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
       semanticSectionIndex++;
       const title = getSectionTitle(section, $);
       // console.log("isSection", title);
-      currentSection = {
+      const nextSection = {
         original: {},
         jurisdiction: "GB",
         regulators: entry.regulators,
@@ -114,6 +115,8 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
         text: "",
         children: [],
       };
+      entry.children.push(nextSection);
+      currentSection = nextSection;
       addCode(currentSection.code, currentSection);
     } else if (isArticle(section)) {
 
@@ -165,13 +168,18 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
           throw e;
         }
         addCode(article.code, article);
+
         if (Math.random() > 0.999) {
-          console.log("-----")
-          console.log(article.code);
-          console.log(article.title);
-          console.log(article.text.slice(0,1000));
-          console.log("-----")
+          await saveArticle(article);
         }
+
+        // if (Math.random() > 0.999) {
+        //   console.log("-----")
+        //   console.log(article.code);
+        //   console.log(article.title);
+        //   console.log(article.text.slice(0,1000));
+        //   console.log("-----")
+        // }
       }
 
     } else {
@@ -179,9 +187,14 @@ async function processDocument(entry: ParsedNodeWithChildren, child: CheerioElem
       throw new Error("Could not identify piece");
     }
     currentSectionIndex++;
-    recurse();
+    await walkSection();
   }
-  recurse();
+  await walkSection();
+  // now we can save the Document, which contains Sections + ArticlesWithNoContent
+  if (Math.random() > 0.999) {
+    await saveDocument(entry);
+  }
+  // throw new Error("STOP");
 }
 
 const allCodes = new Map<string, unknown>();
@@ -210,6 +223,13 @@ function getCleanArticleElement(originalEl: CheerioElement, $: cheerio.CheerioAP
   el.find(".rule a.changed-by").remove();
   el.find(".guidance a.changed-by").remove();
   el.find('section > div.level.deleted').remove();
+  el.find('a').each((index, a) => {
+    const $a = $(a);
+    const href = $a.attr('href');
+    if (href && href.startsWith("/")) {
+      $a.attr("href", `https://www.handbook.fca.org.uk${href}`);
+    }
+  });
   el.find("table").each((i, table) => {
     const $table = $(table);
     if ($table.text().trim() === "") {
@@ -361,140 +381,17 @@ async function getToc() {
   }, true);
 }
 
-// async function getToc() {
-//   return pullThroughCache(`fca-handbook-toc.json`, async() => {
-//     const tocData: ParsedNodeWithChildren = {
-//       original: {},
-//       jurisdiction: "GB",
-//       regulators: [
-//         { code: "GB-FCA", title: "FCA" },
-//       ],
-//       metadata: {
-//         sourceUrl: "https://www.handbook.fca.org.uk/handbook",
-//       },
-//       code: "GB-FCA-FCA-handbook",
-//       citation: "",
-//       parents: [],
-//       type: "collection",
-//       title: "FCA Handbook",
-//       markdown: "",
-//       text: "",
-//       children: [],
-//     };
-//     const rawHtml = await pullThroughFetchText("https://www.handbook.fca.org.uk/handbook");
-//     const $ = cheerio.load(rawHtml);
-//     const toc = $(".toc .toc .toc");
-//     const collections = $("ol.publications-nav > li", toc);
-//     for (const collection of collections) {
-//       const collectionLink = $("> a", collection);
-//       const collectionHref = absoluteUrl(collectionLink.attr("href"));
-//       const collectionTitle = collectionLink.text().trim();
-//       const collectionTitleAttribute = collectionLink.attr("title")?.replace("Contains - ", "") ?? "";
-//       const collectionCodes = collectionTitleAttribute.split(", ").map(s => s.trim());
-//       const collectionCode = `${tocData.code}-${slugify(collectionTitle)}`;
-//       const collectionEntry: ParsedNodeWithChildren = {
-//         original: {},
-//         jurisdiction: "GB",
-//         regulators: [
-//           { code: "GB-FCA", title: "FCA" },
-//         ],
-//         metadata: {
-//           sourceUrl: collectionHref,
-//         },
-//         code: collectionCode,
-//         citation: "",
-//         parents: [{ code: tocData.code, title: tocData.title, type: tocData.type }],
-//         type: "collection",
-//         title: collectionTitle,
-//         markdown: "",
-//         text: "",
-//         children: [],
-//       };
-//       tocData.children.push(collectionEntry);
-//       const children = $("> ul > li", collection);
-//       let childIndex = 0;
-//       for (const child of children) {
-//         const forceCode = collectionCodes[childIndex] ?? "";
-//         const childLink = $("> a", child);
-//         const childLinkHref = absoluteUrl(childLink.attr("href"));
-//         const childCollectionTitle = childLink.text().trim();
-//         const childCollectionCode = forceCode ? `GB-FCA-${forceCode}` : `${collectionCode}-${slugify(childCollectionTitle)}`;
-
-//         const childCollectionTitleAttribute = childLink.attr("title")?.replace("Contains - ", "") ?? "";
-//         const childCollectionCodes = childCollectionTitleAttribute.split(", ").map(s => s.trim());
-
-//         const childCollectionEntry: ParsedNodeWithChildren = {
-//           original: {},
-//           jurisdiction: "GB",
-//           regulators: [
-//             { code: "GB-FCA", title: "FCA" },
-//           ],
-//           metadata: {
-//             originalUrl: childLinkHref,
-//           },
-//           code: childCollectionCode,
-//           citation: "",
-//           parents: [
-//             { code: collectionCode, title: collectionTitle, type: "collection" }
-//           ],
-//           type: "collection",
-//           title: childCollectionTitle,
-//           markdown: "",
-//           text: "",
-//           children: [],
-//         };
-//         collectionEntry.children.push(childCollectionEntry);
-//         const documents = $("> ul > li", child);
-//         let documentIndex = 0;
-//         for (const document of documents) {
-          
-//           const documentLink = $("> a", document);
-//           const documentHref = absoluteUrl(documentLink.attr("href"));
-//           const documentTitle = documentLink.text().trim();
-//           const forceCode = childCollectionCodes[documentIndex] ?? "";
-//           const documentCode = forceCode ? `GB-FCA-${slugify(forceCode)}` : `${childCollectionEntry.code}-${slugify(documentTitle)}`;
-//           const documentEntry: ParsedNodeWithChildren = {
-//             original: {},
-//             jurisdiction: "GB",
-//             regulators: [
-//               { code: "GB-FCA", title: "FCA" },
-//             ],
-//             metadata: {
-//               originalUrl: documentHref,
-//             },
-//             code: documentCode,
-//             citation: "",
-//             parents: [
-//               { code: collectionCode, title: collectionTitle, type: "collection" },
-//               { code: childCollectionCode, title: childCollectionTitle, type: "collection" },
-//             ],
-//             type: "document",
-//             title: documentTitle,
-//             markdown: "",
-//             text: "",
-//             children: [],
-//           };
-//           childCollectionEntry.children.push(documentEntry);
-//           documentIndex += 1;
-//         }
-//         childIndex += 1;
-//       }
-//     }
-//     return tocData;
-//   });
-// }
 
 
-// async function deleteExistingCollectionsAndDocuments() {
-//   const documentsContainer = await getDocumentsContainer();
-//   const results = await documentsContainer.items.query("SELECT * FROM c WHERE c.jurisdiction = 'GB'").fetchAll();
-//   for (const result of results.resources) {
-//     console.log("deleting", result.code);
-//     await documentsContainer.item(result.id, result.code).delete();
-//   }
-// }
-// await deleteExistingCollectionsAndDocuments();
-// console.log("DONE");
+
+
+/*********************************************
+ * RUN
+**********************************************/
+
+
+await clearDocuments();
+
 const toc = await getToc();
 
 console.log("SKIPPED:");
@@ -509,14 +406,15 @@ function printToc(entry: ParsedNodeWithChildren) {
   }
 }
 
-// printToc(toc);
-
-// async function processTocEntry(entry: ParsedNodeWithChildren) {
-//   console.log("Saving", entry.code);
-//   await saveDocument(entry);
-//   for (const child of entry.children) {
-//     await processTocEntry(child);
-//   }
-// }
-
-// await processTocEntry(toc);
+async function clearDocuments() {
+  const docsContainer = await getDocumentsContainer();
+  await deleteResources(docsContainer, "SELECT * FROM c WHERE c.jurisdiction = 'GB'");
+  const articlesContainer = await getArticlesContainer();
+  await deleteResources(articlesContainer, "SELECT * FROM c WHERE c.jurisdiction = 'GB'");
+}
+async function deleteResources(container: Container, query: string) {
+  const {resources} = await container.items.query(query).fetchAll();
+  for (const item of resources) {
+    await container.item(item.id, item.code).delete();
+  }
+}
